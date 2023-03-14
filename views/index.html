@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!--Header-->
+    <header id="header">
+        <nav>
+            <div class="container">
+            <div class="text-center">
+                <a href="/" clsss="nav-brand text-dark">User Management System</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header-->
+
+    <!--Main Site-->
+     <main id="site-main">
+     <div class="container">
+     <div class="box-nav d-flex-justify-between">
+     <a href="/add-user" class="border-shadow">
+     <span class="text-gradient">New User<i class="fa fa-user"></i></span>
+     </a>
+     </div>
+
+     <!-- form handling -->
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>@Email</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Blood Group</th>
+                            <th>disability</th>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>1</td>
+                        <td>Username</td>
+                        <td>example@gmail.com</td>
+                        <td>25</td>
+                        <td>Male</td>
+                        <td>O+</td>
+                        <td>No</td>
+                        <td>
+                       <!-- <a href="#" class="btn border-shadow update"><span><i class="fas fa-pencil-alt"></i></span></a> -->
+                        <a href="#" class="btn border-shadow delete">
+                        <span><i class="fas fa-times"></i></span>
+                        </a>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+
+
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Patient</th>
+                            <th>Doctor</th>
+                            <th>Duration</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Dept</th>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>1</td>
+                        <td>patient 0</td>
+                        <td>doctor 1</td>
+                        <td>60 mins</td>
+                        <td>25/May/2023</td>
+                        <td>10 AM</td>
+                        <td>Cardiology</td>
+                        <td>
+                       <!-- <a href="#" class="btn border-shadow update"><span><i class="fas fa-pencil-alt"></i></span></a> -->
+                        <a href="#" class="btn border-shadow delete">
+                        <span><i class="fas fa-times"></i></span>
+                        </a>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+
+
+
+
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>@Email</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Dept</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>1</td>
+                        <td>Username</td>
+                        <td>example@gmail.com</td>
+                        <td>25</td>
+                        <td>Male</td>
+                        <td>Cardiology</td>
+                        <td>
+                       <!-- <a href="#" class="btn border-shadow update"><span><i class="fas fa-pencil-alt"></i></span></a> -->
+                        <a href="#" class="btn border-shadow delete">
+                        <span><i class="fas fa-times"></i></span>
+                        </a>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+
+
+
+
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Duration</th>
+                            <th>Doctor</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>1</td>
+                        <td>Username</td>
+                        <td>3 Weeks</td>
+                        <td>Dr Uno Tres</td>
+                        <td>500000</td>
+                        <td>
+                       <!-- <a href="#" class="btn border-shadow update"><span><i class="fas fa-pencil-alt"></i></span></a> -->
+                        <a href="#" class="btn border-shadow delete">
+                        <span><i class="fas fa-times"></i></span>
+                        </a>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+
+
+
+            
+     </div>
+     </main>
+    <!--Main Site-->
+
+</body>
+</html>
+    
